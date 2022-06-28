@@ -25,9 +25,9 @@
                 android:id="@+id/iv_thumbnail"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/news_img_height"
+                android:contentDescription="@string/cd_news_imagem"
                 android:scaleType="centerCrop"
-                android:src="@drawable/ic_soccer"
-                android:contentDescription="@string/cd_news_imagem" />
+                android:src="@drawable/ic_soccer" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -75,21 +75,29 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="@dimen/default_margin"
+                    android:background="?android:selectableItemBackgroundBorderless"
+                    android:clickable="true"
+                    android:contentDescription="@string/cd_favorites"
+                    android:focusable="true"
+                    android:padding="4dp"
                     app:layout_constraintBottom_toBottomOf="@+id/btn_open_link"
                     app:layout_constraintEnd_toStartOf="@+id/iv_share"
                     app:layout_constraintTop_toTopOf="@+id/btn_open_link"
-                    app:srcCompat="@drawable/ic_favorite"
-                    android:contentDescription="@string/cd_favorites" />
+                    app:srcCompat="@drawable/ic_favorite" />
 
                 <ImageView
                     android:id="@+id/iv_share"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:background="?android:selectableItemBackgroundBorderless"
+                    android:clickable="true"
+                    android:contentDescription="@string/cd_share"
+                    android:focusable="true"
+                    android:padding="4dp"
                     app:layout_constraintBottom_toBottomOf="@+id/iv_favorite"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintTop_toTopOf="@+id/iv_favorite"
-                    app:srcCompat="@drawable/ic_share"
-                    android:contentDescription="@string/cd_share" />
+                    app:srcCompat="@drawable/ic_share" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
