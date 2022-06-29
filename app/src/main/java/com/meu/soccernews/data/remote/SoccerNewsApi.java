@@ -1,4 +1,4 @@
-package com.meu.soccernews.data;
+package com.meu.soccernews.data.remote;
 
 import com.meu.soccernews.domain.News;
 

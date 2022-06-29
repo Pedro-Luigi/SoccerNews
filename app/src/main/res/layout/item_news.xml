@@ -27,7 +27,7 @@
                 android:layout_height="@dimen/news_img_height"
                 android:contentDescription="@string/cd_news_imagem"
                 android:scaleType="centerCrop"
-                android:src="@drawable/ic_soccer" />
+                tools:srcCompat="@tools:sample/avatars"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
