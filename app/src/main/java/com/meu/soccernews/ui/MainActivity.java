@@ -7,16 +7,13 @@ import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
-import androidx.room.Room;
 
 import com.meu.soccernews.R;
-import com.meu.soccernews.data.local.SoccerNewsDb;
 import com.meu.soccernews.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {
 
     private ActivityMainBinding binding;
-    private SoccerNewsDb db;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

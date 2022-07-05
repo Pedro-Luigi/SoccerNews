@@ -2,7 +2,6 @@ package com.meu.soccernews.data;
 
 import androidx.room.Room;
 
-import com.google.gson.internal.LazilyParsedNumber;
 import com.meu.soccernews.App;
 import com.meu.soccernews.data.local.SoccerNewsDb;
 import com.meu.soccernews.data.remote.SoccerNewsApi;
